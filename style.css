@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+#tarjeta{
+    width: 450px;
+    border: 0px;
+    background-color:hsl(225, 100%, 98%) ;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    border-radius: 1rem;
+    font-size: 16px;
+    margin-right: 23rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 20px 10px hsl(245, 75%, 52%, .16)
+
+}
+#background{
+    display: flex;
+    align-content: center;
+    width: 1440px;
+    background-color:hsl(225, 100%, 94%) ;
+}
+#mitad{
+    display: flex;
+    border: 1px hsl(225, 100%, 94%) solid;
+    background-color:hsl(225, 100%, 94%, .40);
+    width: 70%;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 0.7rem;
+    border: 0px;
+    font-family:'Red Hat Display' ;
+    font-weight: 700;
+    color:hsl(225, 100%, 94%) ;
+    width: 76%;
+    margin: 1rem;
+    padding: 18px 35px;
+    box-shadow: 0 10px 30px hsl(245, 75%, 52%, .50);
+
+}
+
+#ilustracion{
+    border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+h1{
+    font-weight: 900;
+    color:hsl(223, 47%, 23%) ;
+    font-size: larger;
+
+}
+
+#suscripcion{
+    display: inline;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+#change{
+    color:  hsl(245, 75%, 52%);
+    margin-left: 2rem;
+    text-decoration: underline;
+    padding-right: 2rem;
+    font-weight: 700;
+}
+.desc{
+    color: hsl(224, 23%, 55%) ;
+}
+#annualplan{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%)
+}
+#mitad{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#texto{
+    margin: 2rem;
+    text-align: justify;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+#cancel{
+    font-weight: 700;
+}
